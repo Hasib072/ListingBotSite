@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lb App Landing Page</title>
+    <link rel="stylesheet" href="assets/vendors/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="lb-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light lb-navbar">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/NAV_Logo.png" alt="lb">
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="features.html">Features <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="pagesMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                            <div class="dropdown-menu" aria-labelledby="pagesMenu">
+                                <a class="dropdown-item" href="contact.html">About</a>
+                                <a class="dropdown-item" href="pricing.html">Other</a>
+                                <a class="dropdown-item" href="pricing.html">Other</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                     
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="page-header">
+                <h2>Tell us about yourself</h2>
+                <h5>Whether you have questions or you would just like to say hello, contact us.</h5>
+            </section>
+            <section class="contact-content">
+                <div class="contact-widget media">
+                    <img src="assets/images/icon-4.png" alt="monitor" width="50px">
+                    <div class="media-body">
+                        <h6 class="widget-title">Office</h6>
+                        <p class="widget-content">--------------</p>
+                    </div>
+                </div>
+                <div class="contact-widget media">
+                    <img src="assets/images/icon-5.png" alt="book" width="40px">
+                    <div class="media-body">
+                        <h6 class="widget-title">Office</h6>
+                        <p class="widget-content">--------------</p>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-form-wrapper">
+                <form id="contactForm" >
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="name">YOUR NAME <sup>*</sup></label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Name *">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="email">YOUR EMAIL ADDRESS <sup>*</sup></label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="feeney.matteo@schmeler.com">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="subject">SUBJECT <sup>*</sup></label>
+                            <input type="text" class="form-control" id="name" name="subject" placeholder="Development">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="phone">YOUR PHONE NUMBER <sup>*</sup></label>
+                            <input type="text" class="form-control" id="numberInput" name="number" placeholder="635-396-9570">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-12">
+                            <label for="message">HOW CAN WE HELP YOU? <sup>*</sup></label>
+                            <textarea name="message" id="message" class="form-control" rows="7" placeholder="Hi there, I would like to ..."></textarea>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary mb-2" name="submit" value="Login">Submit</button>
+                        <p class="form-footer-text">We'll get back to you in 1-2 business days.</p>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <section class="py-5 mb-5">
+        <div class="container">
+            <h2>FAQ</h2>
+            <p class="section-subtitle">Frequently Asked Questions</p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card mb-3 landing-faq-card">
+                        <div class="card-header bg-white" id="faqOneTitle">
+                            <a href="#faqOneCollapse" class="d-flex align-items-center" data-toggle="collapse">
+                                <h6 class="mb-0">What is lb app?</h6> <i class="far fa-plus-square ml-auto"></i>
+                            </a>
+                        </div>
+                        <div id="faqOneCollapse" class="collapse" aria-labelledby="faqOneTitle">
+                            <div class="card-body">
+                                <p class="mb-0 text-gray">Lorem Ipsum has been the industry's standard dummy text ever
+                                    since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                                    make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 landing-faq-card">
+                        <div class="card-header bg-white" id="faqTwoTitle">
+                            <a href="#faqTwoCollapse" class="d-flex align-items-center" data-toggle="collapse">
+                                <h6 class="mb-0">Why should I use lb app?</h6> <i
+                                    class="far fa-plus-square ml-auto"></i>
+                            </a>
+                        </div>
+                        <div id="faqTwoCollapse" class="collapse" aria-labelledby="faqTwoTitle">
+                            <div class="card-body">
+                                <p class="mb-0 text-gray">Lorem Ipsum has been the industry's standard dummy text ever
+                                    since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                                    make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 landing-faq-card">
+                        <div class="card-header bg-white" id="faqThreeTitle">
+                            <a href="#faqThreeCollapse" class="d-flex align-items-center" data-toggle="collapse">
+                                <h6 class="mb-0">How can I use lb app?</h6> <i class="far fa-plus-square ml-auto"></i>
+                            </a>
+                        </div>
+                        <div id="faqThreeCollapse" class="collapse" aria-labelledby="faqThreeTitle">
+                            <div class="card-body">
+                                <p class="mb-0 text-gray">Lorem Ipsum has been the industry's standard dummy text ever
+                                    since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                                    make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mb-3 landing-faq-card">
+                        <div class="card-header bg-white" id="faqFourTitle">
+                            <a href="#faqFourCollapse" class="d-flex align-items-center" data-toggle="collapse">
+                                <h6 class="mb-0">Who will see my updates?</h6> <i
+                                    class="far fa-plus-square ml-auto"></i>
+                            </a>
+                        </div>
+                        <div id="faqFourCollapse" class="collapse" aria-labelledby="faqFourTitle">
+                            <div class="card-body">
+                                <p class="mb-0 text-gray">Lorem Ipsum has been the industry's standard dummy text ever
+                                    since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                                    make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 landing-faq-card">
+                        <div class="card-header bg-white" id="faqFiveTitle">
+                            <a href="#faqFiveCollapse" class="d-flex align-items-center" data-toggle="collapse">
+                                <h6 class="mb-0">Can people see my connections?</h6> <i
+                                    class="far fa-plus-square ml-auto"></i>
+                            </a>
+                        </div>
+                        <div id="faqFiveCollapse" class="collapse" aria-labelledby="faqFiveTitle">
+                            <div class="card-body">
+                                <p class="mb-0 text-gray">Lorem Ipsum has been the industry's standard dummy text ever
+                                    since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                                    make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 landing-faq-card">
+                        <div class="card-header bg-white" id="faqSixTitle">
+                            <a href="#faqSixCollapse" class="d-flex align-items-center" data-toggle="collapse">
+                                <h6 class="mb-0">Being a user, what all rights I have?</h6> <i
+                                    class="far fa-plus-square ml-auto"></i>
+                            </a>
+                        </div>
+                        <div id="faqSixCollapse" class="collapse" aria-labelledby="faqSixTitle">
+                            <div class="card-body">
+                                <p class="mb-0 text-gray">Lorem Ipsum has been the industry's standard dummy text ever
+                                    since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                                    make a type specimen book.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="lb-footer text-white">
+        <div class="container">
+            <div class="row footer-widget-area">
+                <div class="col-md-3">
+                    <div class="px-3">
+                        <img style="width: 200px;" src="assets/images/Footer_logo.png" alt="lb">
+                        <p class="mt-3" style="font-size: 12px;">Contrary to popular belief, Lorem Ipsum is not
+                            simply random text.</p>
+                    </div>
+                    
+                </div>
+                <div class="col-md-4 mt-4 mt-md-0">
+                    <nav>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link">Office Details</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Address Line 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Address Line 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Address Line 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Address Line 1</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-2 mt-2 mt-md-0">
+                    <nav>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#!" class="nav-link">Contact us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-3 mt-3 mt-md-0">
+                    <p>
+                        &copy; ListingBOT. <a href="https://www.bootstrapdash.com" target="_blank"
+                            rel="noopener noreferrer" class="text-reset"></a>
+                    </p>
+                    <p>Developed by NexZ Labs</p>
+                    <nav class="social-menu">
+                        <a href="#!"><img src="assets/images/facebook.svg" alt="facebook"></a>
+                        <a href="#!"><img src="assets/images/instagram.svg" alt="instagram"></a>
+                        <a href="#!"><img src="assets/images/twitter.svg" alt="twitter"></a>
+                        <a href="#!"><img src="assets/images/youtube.svg" alt="youtube"></a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="thankYouPopup" class="popup">
+        <div class="popup-content">
+            <i id="closePopup" class="fas fa-times close-icon"></i>
+            <h2>Thank you!</h2>
+            <p>Your message has been sent successfully.</p>
+        </div>
+    </div>
+    <div id="loadingIndicator" class="loading-indicator">
+        <i class="fas fa-spinner fa-spin"></i>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    const form = document.getElementById("contactForm");
+    const thankYouPopup = document.getElementById("thankYouPopup");
+    const closePopup = document.getElementById("closePopup");
+
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();
+        const formData = new FormData(form);
+
+        fetch('https://script.google.com/macros/s/AKfycbxa551OKyyzN0ct7ERPUMCNMKyTEiztyZToq8M201oECU_NQs-aLGpgmi8IWea9SqXV/exec', {
+            method: 'POST',
+            body: formData,
+        })
+        .then(response => response.text())
+        .then(data => {
+            // Show the "Thank you" popup
+            thankYouPopup.style.display = "block";
+            form.reset();
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
+
+    // Close the popup when the close icon (X) is clicked
+    closePopup.addEventListener("click", function() {
+        thankYouPopup.style.display = "none";
+    });
+});
+    </script>
+    <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <script src="assets/vendors/popper.js/popper.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
