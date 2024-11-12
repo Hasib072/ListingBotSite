@@ -1,3 +1,3 @@
-Fixed the hero
-kept the Pricing Page
-Pushing to Main
+# ListingBOT
+## Demo Site: [Click Me!](https://listingbot.netlify.app)
+## Link: https://listingbot.netlify.app
